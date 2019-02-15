@@ -24,8 +24,8 @@ public class audioToolsInstall : MonoBehaviour {
       EditorApplication.update -= RunOnce;
   
     // Detect installation requirements by checking if the MelodriveInstruments are in the wrong place...
-    packageFolder = Path.Combine(Application.dataPath, "Audio Tools for Unity Playground");
-    string packageFolderScripts = Path.Combine(Application.dataPath, "Audio Tools for Unity Playground/Scripts/actionScripts");
+    packageFolder = Path.Combine(Application.dataPath, "Audio-Tools-for-Unity-Playground-master");
+    string packageFolderScripts = Path.Combine(Application.dataPath, "Audio-Tools-for-Unity-Playground-master/Scripts/actionScripts");
 
     if (Directory.Exists(packageFolderScripts))
     {
